@@ -11,6 +11,7 @@ import image3 from "/maintain.jpg";
 import image4 from "/x.jpg";
 import image6 from "/portfolio.jpg";
 import image7 from "/commerce.jpg";
+import image8 from "/portfolio2.jpg";
 
 import Home from "./components/Sections/Home";
 import Services from "./components/Sections/Services";
@@ -66,6 +67,12 @@ const App = () => {
       link: "#",
       image: image1,
       tech: ["Figma"],
+    },
+    {
+      label: "Sam Portfolio Website",
+      link: "https://portfolio-henna-alpha-60.vercel.app/",
+      image: image8,
+      tech: ["React", "Tailwindcss", "Shadcnui", "Emailjs"],
     },
     {
       label: "Portfolio Website",
