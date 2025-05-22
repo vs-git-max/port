@@ -4,6 +4,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 import image1 from "/design.jpg";
 import image2 from "/dev.jpg";
@@ -23,6 +24,7 @@ import MobileMenu from "./components/MobileMenu";
 const App = () => {
   const socialLinks = [
     { icon: <IoLogoTiktok />, link: "#" },
+    { icon: <FaGithub />, link: "https://github.com/vs-git-max" },
     {
       icon: <FaWhatsapp />,
       link: "https://wa.me/254704172680?text=Hi%20there!%20I%20like%20your%20work.",
